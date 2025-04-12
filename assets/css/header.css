@@ -45,6 +45,7 @@
   border: none;
   padding: 1rem;
   border-radius: 8px;
+  z-index: 1;
 }
 
 .btn_email {
