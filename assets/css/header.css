@@ -29,9 +29,26 @@
 }
 
 .cabecalho_paragrafo {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 23px;
   font-weight: 400;
   color: var(--color-black);
   margin-bottom: 3.5rem;
+}
+
+.cabecalho_formulario {
+  position: relative;
+}
+
+.cabecalho-email {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.btn_email {
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
