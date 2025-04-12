@@ -1,10 +1,14 @@
+@import url(header.css);
+
 :root {
+  --color-black: #000000;
   --color-white: #ffffff;
   --color-light-grayish: #f4f5f7;
   --color-red: #f84646;
   --color-title: #2e2e2e;
   --color-paragraph: #808080;
   --color-texto: #e6e6e6;
+  --color-btn-hover: #fa6a6a;
 
   --font-Manrope: "Manrope", sans-serif;
 }
@@ -14,4 +18,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-Manrope);
+}
+
+.btn-default {
+  background-color: var(--color-red);
+  border: none;
+  font-size: 0.875rem;
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.625rem 1.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn-default:hover {
+  background-color: var(--color-btn-hover);
 }
