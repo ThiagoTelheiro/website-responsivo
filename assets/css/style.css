@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(beneficios.css);
 
 :root {
   --color-black: #000000;
@@ -9,6 +10,10 @@
   --color-paragraph: #808080;
   --color-texto: #e6e6e6;
   --color-btn-hover: #fa6a6a;
+  --color-pink: #ff5391;
+  --color-purple: #7553ff;
+  --color-blue: #53acff;
+  --color-amarelo: #ffba53;
 
   --font-Manrope: "Manrope", sans-serif;
 }
@@ -34,4 +39,24 @@
 
 .btn-default:hover {
   background-color: var(--color-btn-hover);
+}
+
+.circulo_rosa {
+  background-color: var(--color-pink);
+}
+
+.circulo_roxo {
+  background-color: var(--color-purple);
+}
+
+.circulo_red {
+  background-color: var(--color-red);
+}
+
+.circulo_azul {
+  background-color: var(--color-blue);
+}
+
+.circulo_amarelo {
+  background-color: var(--color-amarelo);
 }
