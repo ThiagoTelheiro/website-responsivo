@@ -1,6 +1,3 @@
-@import url(header.css);
-@import url(beneficios.css);
-
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
@@ -23,40 +20,4 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-Manrope);
-}
-
-.btn-default {
-  background-color: var(--color-red);
-  border: none;
-  font-size: 0.875rem;
-  color: var(--color-white);
-  font-weight: bold;
-  padding: 0.625rem 1.25rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-
-.btn-default:hover {
-  background-color: var(--color-btn-hover);
-}
-
-.circulo_rosa {
-  background-color: var(--color-pink);
-}
-
-.circulo_roxo {
-  background-color: var(--color-purple);
-}
-
-.circulo_red {
-  background-color: var(--color-red);
-}
-
-.circulo_azul {
-  background-color: var(--color-blue);
-}
-
-.circulo_amarelo {
-  background-color: var(--color-amarelo);
 }
